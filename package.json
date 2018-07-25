@@ -1,0 +1,15 @@
+{
+  "name": "loom_messenger",
+  "version": "1.0.0",
+  "description": "A messenger service for Loom Blockchain Communication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo test",
+    "dev": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "loom-js": "^1.14.0"
+  }
+}
