@@ -1,15 +1,18 @@
 {
-  "name": "loom_messenger",
+  "name": "loom-messenger",
   "version": "1.0.0",
-  "description": "A messenger service for Loom Blockchain Communication",
+  "description": "Loom Messenger Service",
   "main": "server.js",
+  "author": "Blockade Games LLC",
+  "license": "BSD-3-Clause",
   "scripts": {
-    "test": "echo test",
-    "dev": "node server.js"
+    "start": "node server.js",
+    "proto": "protoc --js_out=\"import_style=commonjs,binary:.\" helloworld.proto"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "loom-js": "^1.14.0"
+    "loom-js": "^1.4.3"
+  },
+  "devDependencies": {
+    "protoc": "^1.0.3"
   }
 }
